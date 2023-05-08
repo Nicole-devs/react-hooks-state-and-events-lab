@@ -5,6 +5,7 @@ import itemData from "../data/items";
 
 
 function App() {
+
   const [isDarkMode, setIsDarkMode] = useState(false);
 
   const handleToggle = () => {
@@ -13,6 +14,7 @@ function App() {
 
   const appClass = isDarkMode ? 'App dark' : 'App light';
 
+  
   return (
     <div className={appClass}>
       <header>
